@@ -1,0 +1,67 @@
+.events {
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .events h1 {
+    text-align: center; /* Center the main title */
+    font-size: 2.5rem; /* Large font for the main title */
+    margin-bottom: 30px; /* Space below the main title */
+    color: #333; /* Dark color for readability */
+  }
+  
+  .events p {
+    font-size: 1rem; /* Standard font size */
+    color: #666; /* Softer color for body text */
+  }
+  
+  .events_description {
+    background-color: #ebe6e6; /* White background for each event card */
+    margin-bottom: 20px; /* Space between event cards */
+    padding: 20px; /* Padding inside each card */
+    border: 1px solid #ddd; /* Light border around each card */
+    border-radius: 10px; /* Rounded corners for cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  }
+  
+  .events_description:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Elevated shadow on hover */
+  }
+  
+  .events_description h2 {
+    font-size: 1.5rem; /* Slightly larger font for event titles */
+    margin-bottom: 10px; /* Space below event titles */
+    color: #333; /* Darker color for the title */
+  }
+  
+  .events_description p {
+    font-size: 1rem; /* Consistent font size for paragraphs */
+    color: #555; /* Softer dark color for readability */
+  }
+  
+  .events_description p span {
+    font-weight: bold; /* Bold important information */
+  }
+  
+  @media (max-width: 768px) {
+    .events {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+  
+    .events h1 {
+      font-size: 2rem; /* Adjust title size for smaller screens */
+    }
+  
+    .events_description h2 {
+      font-size: 1.2rem; /* Adjust event title size for smaller screens */
+    }
+  
+    .events_description p {
+      font-size: 0.9rem; /* Adjust paragraph size for readability */
+    }
+  }

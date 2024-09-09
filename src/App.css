@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between; /* Aligns items to opposite ends */
+    align-items: center; /* Centers items vertically */
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Spacing around the nav */
+  }
+  
+  .nav img {
+    height: 50px; /* Adjust image/logo height */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 50px;
+  }
+  
+  .nav ul {
+    list-style-type: none; /* Removes bullet points from list */
+    display: flex; /* Aligns list items horizontally */
+    gap: 20px; /* Adds space between list items */
+  }
+  
+  .nav ul li {
+    display: inline-block; /* Aligns list items side by side */
+  }
+  
+  .nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* White text color */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold; /* Makes text bold */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .nav ul li a:hover {
+    color: #f0a500; /* Changes color on hover */
+  }
+  
